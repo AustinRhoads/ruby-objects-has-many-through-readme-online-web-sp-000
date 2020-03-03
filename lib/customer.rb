@@ -6,7 +6,8 @@ attr_accessor :name, :age
 
 def initialize (name, age)
 @name = name
-@age = age
+@age = age 
+@meals = []
 @@all << self
 end
 
@@ -20,7 +21,7 @@ meal = Meal.new(waiter, self, total, tip)
 end
 
 def meals
-@meals = []
+@meals
 end
 
 def waiters
