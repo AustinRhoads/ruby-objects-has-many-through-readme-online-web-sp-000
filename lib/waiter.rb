@@ -15,7 +15,7 @@ class Waiter
   end
 
   def meals
-@meals
+  @meals
   end
 
   def self.all
