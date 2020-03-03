@@ -20,7 +20,7 @@ class Waiter
   end
 
 def best_tipper
-
+@meals
 end
 
   def self.all
