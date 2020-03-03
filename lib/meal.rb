@@ -1,5 +1,5 @@
 class Meal
-  attr_accessor :name, :customer, :total, :tip
+  attr_accessor :waiter, :customer, :total, :tip
 
   @@all = [].uniq
 
