@@ -23,7 +23,7 @@ def best_tipper
 @meals.sort do |a, b|
 a.tip <=> b.tip
 end
-@meals[0].name
+@meals[0].customer
 end
 
   def self.all
