@@ -22,7 +22,7 @@ class Waiter
 def best_tipper
  @meals.sort do |a, b|
   b.tip <=> a.tip
-end 
+end
 @meals[0].customer
 end
 
