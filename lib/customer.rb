@@ -18,7 +18,7 @@ def new_meal(x, y, z)
   @x = x
   @y = y
   @z = z
-meal = Meal.new (x, self, y, z)
+meal = Meal.new (@x, self, @y, @z)
 @meals << meal
 end
 
