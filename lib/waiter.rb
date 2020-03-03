@@ -20,9 +20,9 @@ class Waiter
   end
 
 def best_tipper
-
+binding.pry
 @meals.sort do |a, b|
-a.tip <=> b.tip
+a.@tip <=> b.@tip
 end
 @meals[0].customer.name
 end
