@@ -20,7 +20,7 @@ class Waiter
   end
 
 def best_tipper
-  
+
 @meals.sort do |a, b|
 a.{a.customer.tip <=> b.customer.tip
 end
