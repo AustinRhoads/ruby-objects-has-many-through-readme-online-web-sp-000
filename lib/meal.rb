@@ -11,7 +11,8 @@ class Meal
   @@all << self
   customer.meals << self
   customer.waiters << waiter
-  waiter.meals << self
+  waiter.meals << self 
+  
   end
 
   def self.all
