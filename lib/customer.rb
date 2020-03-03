@@ -1,16 +1,16 @@
 class Customer
 
-attr_accessor :name, :age 
+attr_accessor :name, :age
 
-@@all = [].uniq 
+@@all = [].uniq
 
 def initialize (name, age)
 @name = name
 @age = age
 @@all << self
-end 
+end
 
-def all 
+def all
 @@all
 end
 
