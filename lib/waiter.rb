@@ -20,9 +20,10 @@ class Waiter
   end
 
 def best_tipper
-@meals.sort do |meal|
-  meal.tip <=> meal.tip
-end
+ @meals.sort do |a, b|
+  b.tip <=> a.tip
+end 
+@meals[0].customer
 end
 
   def self.all
