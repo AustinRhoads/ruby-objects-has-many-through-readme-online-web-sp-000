@@ -1,4 +1,4 @@
-require 'binding.pry'
+require 'pry'
 class Waiter
   attr_accessor :name, :experience, :customers
 
