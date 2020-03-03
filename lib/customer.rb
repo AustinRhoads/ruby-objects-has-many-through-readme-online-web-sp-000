@@ -14,9 +14,9 @@ def self.all
 @@all
 end
 
-def new_meal(x, y, z) 
-  @x = x 
-  @y = y 
+def new_meal(x, y, z)
+  @x = x
+  @y = y
   @z = z
 meal = Meal.new (x, self, y, z)
 @meals << meal
