@@ -28,3 +28,6 @@ end
   end
 
 end
+
+ josh = Waiter.new("josh", 3)
+ 
