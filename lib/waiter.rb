@@ -7,6 +7,11 @@ class Waiter
   @name = name
   @experience = experience
   @@all << self
+  end 
+
+  def new_meal(customer, total, tip)
+  meal = Meal.new(self, customer, total, tip)
+
   end
 
   def self.all
