@@ -14,12 +14,13 @@ def self.all
 @@all
 end
 
-def new_meal
-
+def new_meal(waiter, total, tip)
+meal = Meal.new (waiter, self, total, tip)
+@meals << self
 end
 
 def meals
-
+@meals = []
 end
 
 def waiters
