@@ -14,8 +14,8 @@ def self.all
 @@all
 end
 
-def new_meal(x, y, z)
-meal = Meal.new (x, self, y, z)
+def new_meal(waiter, total, tip)
+meal = Meal.new (waiter, self, total, tip)
 @meals << meal
 end
 
