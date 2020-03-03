@@ -10,7 +10,7 @@ def initialize (name, age)
 @@all << self
 end
 
-def all
+def self.all
 @@all
 end
 
