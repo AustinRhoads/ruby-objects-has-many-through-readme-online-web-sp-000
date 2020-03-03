@@ -1,4 +1,4 @@
-require 'pry'
+require 'binding.pry'
 class Waiter
   attr_accessor :name, :experience, :customers
 
@@ -28,4 +28,3 @@ end
   end
 
 end
-puts ran
