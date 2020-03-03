@@ -1,5 +1,5 @@
 class Waiter
-  attr_accessor :name, :experience
+  attr_accessor :name, :experience, :customers
 
   @@all = [].uniq
 
@@ -17,6 +17,10 @@ class Waiter
   def meals
   @meals
   end
+
+def best_tipper
+
+end
 
   def self.all
   @@all
