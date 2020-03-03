@@ -16,7 +16,7 @@ end
 
 def new_meal(waiter, total, tip)
 meal = Meal.new (waiter, self, total, tip)
-@meals << self
+@meals << meal
 end
 
 def meals
